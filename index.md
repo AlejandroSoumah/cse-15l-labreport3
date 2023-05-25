@@ -53,7 +53,7 @@ Sure! Let's focus on the `find` command for this exercise. Here are four interes
 
      ```
 
-2. Option: `-name`
+2. Option: `-empty`
    - Description: The -empty option allows you to search for files or directories that are empty.
    - Source: [Linux man page for `find`](https://man7fi.org/linux/man-pages/man1/find.1.html)
    - Examples:
