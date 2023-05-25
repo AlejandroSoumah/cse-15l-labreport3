@@ -110,7 +110,7 @@ Sure! Let's focus on the `find` command for this exercise. Here are four interes
      ```shell
      $ find ./technical -type f -name "*.txt" -exec cat {} \;
                  Improve the Transitions between Administrations
-            In chapter 6, we described the transition of 2000-2001. Beyond the policy issues we
+                  In chapter 6, we described the transition of 2000-2001. Beyond the policy issues we
                 described, the new administration did not have its deputy cabinet officers in place
                 until the spring of 2001, and the critical subcabinet officials were not confirmed
                 until the summer-if then. In other words, the new administration- like others before
