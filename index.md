@@ -54,19 +54,14 @@ Sure! Let's focus on the `find` command for this exercise. Here are four interes
      ```
 
 2. Option: `-name`
-   - Description: Matches files and directories based on their names.
+   - Description: The -empty option allows you to search for files or directories that are empty.
    - Source: [Linux man page for `find`](https://man7fi.org/linux/man-pages/man1/find.1.html)
    - Examples:
      ```shell
-     $ find ./technical -name "*.txt"
-     ./technical/911report/chapter-1.txt
-      ./technical/911report/chapter-10.txt
-      ./technical/911report/chapter-11.txt
-      ./technical/911report/chapter-12.txt
-      ./technical/911report/chapter-13.1.txt
+     $ find ./technical -type f -empty
+      # No files found
 
-
-     $ find ./technical -name "file*"
+     $ find ./technical/911report -type f -empty
      
      # No files found
      ```
